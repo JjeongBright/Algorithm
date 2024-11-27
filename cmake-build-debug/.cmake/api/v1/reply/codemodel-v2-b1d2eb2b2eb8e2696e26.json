@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Algorithm",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Algorithm::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Algorithm-Debug-3b5f36a1ad31101faceb.json",
 					"name" : "Algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "solving_21940::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solving_21940-Debug-68f2d2baca4814fd227f.json",
+					"name" : "solving_21940",
 					"projectIndex" : 0
 				}
 			]
