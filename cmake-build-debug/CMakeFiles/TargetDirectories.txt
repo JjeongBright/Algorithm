@@ -1,4 +1,6 @@
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/solving_21940.dir
+/Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/solving_1956.dir
+/Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/SCC.dir
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

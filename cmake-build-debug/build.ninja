@@ -102,6 +102,68 @@ build solving_21940: CXX_EXECUTABLE_LINKER__solving_21940_Debug CMakeFiles/solvi
   TARGET_FILE = solving_21940
   TARGET_PDB = solving_21940.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target solving_1956
+
+
+#############################################
+# Order-only phony target for solving_1956
+
+build cmake_object_order_depends_target_solving_1956: phony || CMakeFiles/solving_1956.dir
+
+build CMakeFiles/solving_1956.dir/solving/1956.cpp.o: CXX_COMPILER__solving_1956_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/1956.cpp || cmake_object_order_depends_target_solving_1956
+  DEP_FILE = CMakeFiles/solving_1956.dir/solving/1956.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/solving_1956.dir
+  OBJECT_FILE_DIR = CMakeFiles/solving_1956.dir/solving
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target solving_1956
+
+
+#############################################
+# Link the executable solving_1956
+
+build solving_1956: CXX_EXECUTABLE_LINKER__solving_1956_Debug CMakeFiles/solving_1956.dir/solving/1956.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/solving_1956.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = solving_1956
+  TARGET_PDB = solving_1956.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SCC
+
+
+#############################################
+# Order-only phony target for SCC
+
+build cmake_object_order_depends_target_SCC: phony || CMakeFiles/SCC.dir
+
+build CMakeFiles/SCC.dir/SCC.cpp.o: CXX_COMPILER__SCC_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/SCC.cpp || cmake_object_order_depends_target_SCC
+  DEP_FILE = CMakeFiles/SCC.dir/SCC.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SCC.dir
+  OBJECT_FILE_DIR = CMakeFiles/SCC.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SCC
+
+
+#############################################
+# Link the executable SCC
+
+build SCC: CXX_EXECUTABLE_LINKER__SCC_Debug CMakeFiles/SCC.dir/SCC.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/SCC.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SCC
+  TARGET_PDB = SCC.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug
 
-build all: phony Algorithm solving_21940
+build all: phony Algorithm solving_21940 solving_1956 SCC
 
 # =============================================================================
 # Built-in targets
