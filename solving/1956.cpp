@@ -28,12 +28,21 @@ int main() {
             }
         }
     }
+    int res = INF;
+
+    for (int i = 1; i <= V; i++) {
+        for (int j = 1; j <= V; j++) {
+            if (i != j) {
+                res = min(res, dist[i][j] + dist[j][i]);
+            }
+        }
+    }
 
 
 
 
-    if(dist[1][V] == INF) {
+    if(res == INF) {
         cout << -1;
-    } else{ cout << dist[1][V];}
+    } else{ cout << res;}
 
 }

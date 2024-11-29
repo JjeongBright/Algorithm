@@ -142,11 +142,11 @@ build solving_1956: CXX_EXECUTABLE_LINKER__solving_1956_Debug CMakeFiles/solving
 
 build cmake_object_order_depends_target_SCC: phony || CMakeFiles/SCC.dir
 
-build CMakeFiles/SCC.dir/SCC.cpp.o: CXX_COMPILER__SCC_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/SCC.cpp || cmake_object_order_depends_target_SCC
-  DEP_FILE = CMakeFiles/SCC.dir/SCC.cpp.o.d
+build CMakeFiles/SCC.dir/solving/2150.cpp.o: CXX_COMPILER__SCC_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/2150.cpp || cmake_object_order_depends_target_SCC
+  DEP_FILE = CMakeFiles/SCC.dir/solving/2150.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/SCC.dir
-  OBJECT_FILE_DIR = CMakeFiles/SCC.dir
+  OBJECT_FILE_DIR = CMakeFiles/SCC.dir/solving
 
 
 # =============================================================================
@@ -156,7 +156,7 @@ build CMakeFiles/SCC.dir/SCC.cpp.o: CXX_COMPILER__SCC_unscanned_Debug /Users/jeo
 #############################################
 # Link the executable SCC
 
-build SCC: CXX_EXECUTABLE_LINKER__SCC_Debug CMakeFiles/SCC.dir/SCC.cpp.o
+build SCC: CXX_EXECUTABLE_LINKER__SCC_Debug CMakeFiles/SCC.dir/solving/2150.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/SCC.dir
   POST_BUILD = :
