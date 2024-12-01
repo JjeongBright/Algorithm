@@ -55,6 +55,12 @@ build CMakeFiles/Algorithm.dir/main.cpp.o: CXX_COMPILER__Algorithm_unscanned_Deb
   OBJECT_DIR = CMakeFiles/Algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir
 
+build CMakeFiles/Algorithm.dir/solving/11049.cpp.o: CXX_COMPILER__Algorithm_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/11049.cpp || cmake_object_order_depends_target_Algorithm
+  DEP_FILE = CMakeFiles/Algorithm.dir/solving/11049.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithm.dir/solving
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algorithm
@@ -63,7 +69,7 @@ build CMakeFiles/Algorithm.dir/main.cpp.o: CXX_COMPILER__Algorithm_unscanned_Deb
 #############################################
 # Link the executable Algorithm
 
-build Algorithm: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/main.cpp.o
+build Algorithm: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/main.cpp.o CMakeFiles/Algorithm.dir/solving/11049.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/Algorithm.dir
   POST_BUILD = :
@@ -164,6 +170,37 @@ build SCC: CXX_EXECUTABLE_LINKER__SCC_Debug CMakeFiles/SCC.dir/solving/2150.cpp.
   TARGET_FILE = SCC
   TARGET_PDB = SCC.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target solving_17070
+
+
+#############################################
+# Order-only phony target for solving_17070
+
+build cmake_object_order_depends_target_solving_17070: phony || CMakeFiles/solving_17070.dir
+
+build CMakeFiles/solving_17070.dir/solving/17070.cpp.o: CXX_COMPILER__solving_17070_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/17070.cpp || cmake_object_order_depends_target_solving_17070
+  DEP_FILE = CMakeFiles/solving_17070.dir/solving/17070.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/solving_17070.dir
+  OBJECT_FILE_DIR = CMakeFiles/solving_17070.dir/solving
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target solving_17070
+
+
+#############################################
+# Link the executable solving_17070
+
+build solving_17070: CXX_EXECUTABLE_LINKER__solving_17070_Debug CMakeFiles/solving_17070.dir/solving/17070.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/solving_17070.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = solving_17070
+  TARGET_PDB = solving_17070.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +235,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug
 
-build all: phony Algorithm solving_21940 solving_1956 SCC
+build all: phony Algorithm solving_21940 solving_1956 SCC solving_17070
 
 # =============================================================================
 # Built-in targets
