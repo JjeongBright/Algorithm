@@ -3,5 +3,8 @@
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/solving_1956.dir
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/SCC.dir
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/solving_17070.dir
+/Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/solving_2302.dir
+/Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/solving_14501.dir
+/Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/solving_14002.dir
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

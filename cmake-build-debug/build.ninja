@@ -201,6 +201,99 @@ build solving_17070: CXX_EXECUTABLE_LINKER__solving_17070_Debug CMakeFiles/solvi
   TARGET_FILE = solving_17070
   TARGET_PDB = solving_17070.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target solving_2302
+
+
+#############################################
+# Order-only phony target for solving_2302
+
+build cmake_object_order_depends_target_solving_2302: phony || CMakeFiles/solving_2302.dir
+
+build CMakeFiles/solving_2302.dir/solving/2302.cpp.o: CXX_COMPILER__solving_2302_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/2302.cpp || cmake_object_order_depends_target_solving_2302
+  DEP_FILE = CMakeFiles/solving_2302.dir/solving/2302.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/solving_2302.dir
+  OBJECT_FILE_DIR = CMakeFiles/solving_2302.dir/solving
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target solving_2302
+
+
+#############################################
+# Link the executable solving_2302
+
+build solving_2302: CXX_EXECUTABLE_LINKER__solving_2302_Debug CMakeFiles/solving_2302.dir/solving/2302.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/solving_2302.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = solving_2302
+  TARGET_PDB = solving_2302.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target solving_14501
+
+
+#############################################
+# Order-only phony target for solving_14501
+
+build cmake_object_order_depends_target_solving_14501: phony || CMakeFiles/solving_14501.dir
+
+build CMakeFiles/solving_14501.dir/solving/14501.cpp.o: CXX_COMPILER__solving_14501_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/14501.cpp || cmake_object_order_depends_target_solving_14501
+  DEP_FILE = CMakeFiles/solving_14501.dir/solving/14501.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/solving_14501.dir
+  OBJECT_FILE_DIR = CMakeFiles/solving_14501.dir/solving
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target solving_14501
+
+
+#############################################
+# Link the executable solving_14501
+
+build solving_14501: CXX_EXECUTABLE_LINKER__solving_14501_Debug CMakeFiles/solving_14501.dir/solving/14501.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/solving_14501.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = solving_14501
+  TARGET_PDB = solving_14501.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target solving_14002
+
+
+#############################################
+# Order-only phony target for solving_14002
+
+build cmake_object_order_depends_target_solving_14002: phony || CMakeFiles/solving_14002.dir
+
+build CMakeFiles/solving_14002.dir/solving/14002.cpp.o: CXX_COMPILER__solving_14002_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/14002.cpp || cmake_object_order_depends_target_solving_14002
+  DEP_FILE = CMakeFiles/solving_14002.dir/solving/14002.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/solving_14002.dir
+  OBJECT_FILE_DIR = CMakeFiles/solving_14002.dir/solving
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target solving_14002
+
+
+#############################################
+# Link the executable solving_14002
+
+build solving_14002: CXX_EXECUTABLE_LINKER__solving_14002_Debug CMakeFiles/solving_14002.dir/solving/14002.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/solving_14002.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = solving_14002
+  TARGET_PDB = solving_14002.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -235,7 +328,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug
 
-build all: phony Algorithm solving_21940 solving_1956 SCC solving_17070
+build all: phony Algorithm solving_21940 solving_1956 SCC solving_17070 solving_2302 solving_14501 solving_14002
 
 # =============================================================================
 # Built-in targets

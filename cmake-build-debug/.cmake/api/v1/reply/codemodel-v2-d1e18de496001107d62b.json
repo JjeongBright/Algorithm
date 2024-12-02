@@ -19,7 +19,10 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -38,7 +41,10 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -60,6 +66,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "solving_14002::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solving_14002-Debug-3e36379fda021d593a54.json",
+					"name" : "solving_14002",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "solving_14501::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solving_14501-Debug-a248a6c8063587520e73.json",
+					"name" : "solving_14501",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "solving_17070::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-solving_17070-Debug-aead828c2cf7c8e64328.json",
 					"name" : "solving_17070",
@@ -77,6 +97,13 @@
 					"id" : "solving_21940::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-solving_21940-Debug-54b6c54b4015c98f9a20.json",
 					"name" : "solving_21940",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "solving_2302::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solving_2302-Debug-75be13d7281b349efa82.json",
+					"name" : "solving_2302",
 					"projectIndex" : 0
 				}
 			]
