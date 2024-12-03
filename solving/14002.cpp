@@ -37,7 +37,7 @@ int main() {
     reverse(chk.begin(), chk.end());
     cout << chk.size() << '\n';
     for (auto x: chk) {
-        cout << x << ' ';
+//        cout << x << ' ';
     }
 
 }

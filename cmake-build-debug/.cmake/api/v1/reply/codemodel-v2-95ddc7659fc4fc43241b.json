@@ -22,7 +22,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -44,7 +46,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -80,6 +84,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "solving_15486::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solving_15486-Debug-0d260f0b4a394834d5d9.json",
+					"name" : "solving_15486",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "solving_17070::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-solving_17070-Debug-aead828c2cf7c8e64328.json",
 					"name" : "solving_17070",
@@ -104,6 +115,13 @@
 					"id" : "solving_2302::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-solving_2302-Debug-75be13d7281b349efa82.json",
 					"name" : "solving_2302",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-810d1c4d1d6f32d121d2.json",
+					"name" : "test",
 					"projectIndex" : 0
 				}
 			]

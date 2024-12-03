@@ -294,6 +294,68 @@ build solving_14002: CXX_EXECUTABLE_LINKER__solving_14002_Debug CMakeFiles/solvi
   TARGET_FILE = solving_14002
   TARGET_PDB = solving_14002.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/test.cpp.o: CXX_COMPILER__test_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/test.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test
+
+build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test
+  TARGET_PDB = test.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target solving_15486
+
+
+#############################################
+# Order-only phony target for solving_15486
+
+build cmake_object_order_depends_target_solving_15486: phony || CMakeFiles/solving_15486.dir
+
+build CMakeFiles/solving_15486.dir/solving/15486.cpp.o: CXX_COMPILER__solving_15486_unscanned_Debug /Users/jeonjeonghyeon/Documents/Algorithm/solving/15486.cpp || cmake_object_order_depends_target_solving_15486
+  DEP_FILE = CMakeFiles/solving_15486.dir/solving/15486.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/solving_15486.dir
+  OBJECT_FILE_DIR = CMakeFiles/solving_15486.dir/solving
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target solving_15486
+
+
+#############################################
+# Link the executable solving_15486
+
+build solving_15486: CXX_EXECUTABLE_LINKER__solving_15486_Debug CMakeFiles/solving_15486.dir/solving/15486.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/solving_15486.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = solving_15486
+  TARGET_PDB = solving_15486.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -328,7 +390,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/jeonjeonghyeon/Documents/Algorithm/cmake-build-debug
 
-build all: phony Algorithm solving_21940 solving_1956 SCC solving_17070 solving_2302 solving_14501 solving_14002
+build all: phony Algorithm solving_21940 solving_1956 SCC solving_17070 solving_2302 solving_14501 solving_14002 test solving_15486
 
 # =============================================================================
 # Built-in targets
